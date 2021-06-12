@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap');
 
 :root{
-    --primary-color : #39B8F3;
+    --primary-color :#39B8F3;
     
     --dark-gray : #ABAFAF
     
@@ -12,7 +12,8 @@ body{
     margin: 0px;
 }
 .container{
-    padding: 0rem,1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
     
 }
 
@@ -23,19 +24,23 @@ body{
     margin: auto;
 }
 
-.link{
-
+.primary-link{
    
-    background-color: #39B8F3;
+
+    color: var(--primary-color);
+   
+    padding: 0.5rem,1rem;
     text-decoration:none;
    
-    color: var(--primary-color);
-    padding: 0.5rem,1rem;
+    
+   
     border-radius: 0.5rem;
-    color:antiquewhite;
+    color :#39B8F3
+    
 
-    margin-top: 1rem;
+    margin-top : 1rem;
     margin-bottom: 1rem;
+    
 
 
 }
@@ -43,7 +48,7 @@ body{
 
 .link2{
     
-    
+     
     color: var(--primary-color);
  
     padding: 0.5rem,1rem;
@@ -127,6 +132,9 @@ body{
 
 .ofw{
     background-color: rgb(216, 216, 212);
+    padding: 2rem;
+    
+    
 }
 
 
